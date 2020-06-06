@@ -1,0 +1,73 @@
+#trip_card
+{
+    
+    margin-top: 200px;
+    /* width:50% !important; */
+}
+
+
+#collection
+{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    margin-top: 200px;
+    text-align: center !important;
+    margin-left:30px;
+
+}
+
+
+
+#name
+{
+    /* text-align: center !important; */
+     margin-left:30px ;
+     margin-bottom:50px;
+}
+
+
+#name1
+{
+    /* text-align: center !important; */
+     margin-left:30px ;
+     margin-bottom:50px;
+     margin-right:330px;
+}
+#trip_card2
+{
+    margin-top:20px;
+}
+
+.card
+{
+    background-color:black !important;
+}
+@media only screen and (max-width: 600px) {
+
+    #collection h1
+    {
+        margin:0 !important;
+        margin-left:0px;
+    } 
+    
+    /* .set
+    {
+        margin-left:30px;
+        margin-left:20px !important;
+    
+    } */
+    
+    /* #name
+    {
+        margin-left:20px !important;
+    }
+    
+    #name1
+    {
+        margin-left:20px !important;
+        margin-right:0px !important;
+    } */
+    
+    
+}

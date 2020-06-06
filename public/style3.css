@@ -1,0 +1,108 @@
+.first1
+{
+    background-color: black;
+    color:white;
+    margin-top:200px;
+    text-align: center;
+}
+
+.first2
+{
+    background-color: black;
+    color:white;
+    margin-top:40px;
+    margin-bottom:20px;
+    text-align: center;
+}
+
+.second2
+{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+}
+
+.second2 img
+{
+    width: 330px;
+    height:195px;
+
+}
+
+.second3
+{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+}
+
+.second3 img
+{
+    width: 265px;
+    height:195px;
+
+}
+
+#members
+{
+    margin-top:190px;
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+   margin-left: 10px;
+}
+
+#members img
+{
+    width: 325px;
+    height:195px;
+}
+
+#membersd
+{
+    margin-bottom: 10px;
+}
+/* .card
+{
+    width: 330px !important;
+    height:195px !important;
+    margin-left:10px !important
+} */
+
+.membersdetail
+{
+    width: 320px !important;
+    height:100px !important;
+    background-color: black;
+    text-align: center;
+    color: cornsilk;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .second2{
+        margin-left:30px;
+    }
+    .second3{
+        margin-left:30px;
+    }
+    .second2 img
+    {
+        width: 165px;
+        height:165px;
+    
+    }
+    .second3 img
+{
+    width: 165px;
+    height:165px;
+
+}
+
+#members
+    {
+        margin-left:25px;
+    }
+
+
+}
